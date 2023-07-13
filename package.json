@@ -4,7 +4,8 @@
   "description": "Todo App built in Node and TypeScript following Multi-layered Architecture.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "start": "node index.ts",
+    "dev": "nodemon index.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@prisma/client": "^5.0.0"
+    "@prisma/client": "^5.0.0",
+    "express": "^4.18.2"
   }
 }
